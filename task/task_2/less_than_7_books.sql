@@ -1,0 +1,1 @@
+select authors.name from authors join exemplar on exemplar.id_author=authors.id_author group by authors.name having count(*) < 7;
